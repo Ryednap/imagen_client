@@ -18,6 +18,8 @@
     "yargs": "^17.5.1"
   },
   "pkg" : {
-    "output" : "out"
+    "scripts" : ["api/**", "util/**"],
+    "outputPath" : "dist",
+    "targets" : [ "node14-linux-arm64" ]
   }
 }
